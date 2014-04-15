@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 /**
  * Created with IntelliJ IDEA.
  * User: zaitsevyan
@@ -6,6 +8,6 @@
  */
 public class Main {
     public static void main(String[] args){
-        System.out.println("Hello in console!");
+        JOptionPane.showMessageDialog(null,"Hello from SWING! (c) Yan");
     }
 }
