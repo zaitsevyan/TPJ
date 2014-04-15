@@ -1,5 +1,3 @@
-import javax.swing.*;
-
 /**
  * Created with IntelliJ IDEA.
  * User: zaitsevyan
@@ -8,6 +6,6 @@ import javax.swing.*;
  */
 public class Main {
     public static void main(String[] args){
-        JOptionPane.showMessageDialog(null,"Hello");
+        System.out.println("Hello in console!");
     }
 }
